@@ -10,6 +10,7 @@ WORKDIR /home/arch
 RUN git clone -b main https://github.com/i2z1/pkg_llama.cpp-cuda-git
 
 WORKDIR /home/arch/pkg_llama.cpp-cuda-git
+RUN source "/etc/profile"
 
 RUN makepkg
 

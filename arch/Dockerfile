@@ -3,7 +3,7 @@ FROM ghcr.io/archlinux/archlinux:latest
 
 ENV target zeek
 
-RUN pacman -Syu --noconfirm && pacman -S base-devel git cmake curl gcc-libs glibc python python-numpy openmp --noconfirm
+RUN pacman -Syu --noconfirm && pacman -S base-devel git cmake curl gcc-libs glibc python python-numpy openmp cuda --noconfirm
 RUN useradd -m arch
 USER arch
 WORKDIR /home/arch

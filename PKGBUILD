@@ -13,6 +13,7 @@ depends=(
   glibc
   python
   python-numpy
+  cuda
 )
 makedepends=(
   cmake

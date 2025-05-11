@@ -50,4 +50,4 @@ jobs:
           prerelease: false
           files: |
             llama.cpp-cuda-git-${{ matrix.version }}-${{ matrix.pkgver }}-x86_64.pkg.tar.zst
-            llama.cpp-cuda-git-${{ matrix.version }}-${{ matrix.pkgver }}-x86_64.pkg.sha256sum
+            llama.cpp-cuda-git.sha256sum

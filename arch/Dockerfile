@@ -14,4 +14,4 @@ RUN source "/etc/profile"
 
 RUN source "/etc/profile"; makepkg
 
-RUN sha256sum pkg_llama.cpp-cuda-git-*-x86_64.pkg.tar.zst > pkg_llama.cpp-cuda-git.sha256sum
+RUN sha256sum llama.cpp-cuda-git-*-x86_64.pkg.tar.zst > llama.cpp-cuda-git.sha256sum

@@ -12,6 +12,6 @@ RUN git clone -b main https://github.com/i2z1/pkg_llama.cpp-cuda-git
 WORKDIR /home/arch/pkg_llama.cpp-cuda-git
 RUN source "/etc/profile"
 
-RUN makepkg
+RUN source "/etc/profile"; makepkg
 
 RUN sha256sum pkg_llama.cpp-cuda-git-*-x86_64.pkg.tar.zst > pkg_llama.cpp-cuda-git.sha256sum
